@@ -5,7 +5,7 @@
   text-decoration: none;
   list-style: none;
   scroll-behavior: smooth;
-  /* background-color: grey; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-panel{ 
@@ -34,18 +34,19 @@
   text-align: left;
   color: white;
   margin: 250px auto;
+  font-family: 'Montserrat', sans-serif;
 }
 .main-panel-text h2{
-  font-size: 60px;
-  font-weight: 100;
+  font-size: 50px;
+  font-weight: 200;
 }
 .main-panel-text h2 span{
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   color:#81c73b;
 }
 .main-panel-text p{
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .nav-bar{
@@ -252,8 +253,9 @@ textarea:focus, .textinput:focus {
 /* small tablet styles */
 @media screen and (min-width: 620px){
   scroll btn lower 
-  nav menu compressed
+  nav menu compressed into hamburger style
 
+  
 
 }
 
