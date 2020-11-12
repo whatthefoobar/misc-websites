@@ -23,7 +23,7 @@
   position: fixed;
   width: 100%;
   z-index: 9999;
-  background-color:rgba(245, 245, 245, 0.5);
+  background-color:rgba(0, 0, 0, 0.5);
   font-weight: 700; 
   /* position: relative; */
   
@@ -140,7 +140,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-  gap: 30px;	
+  gap: 50px;	
 }
 
 .project-wrapper {
@@ -191,7 +191,7 @@ figcaption{
 
 /*Contact section */
 .contact-wrapper {
-	min-height: 80vh;
+	min-height: 60vh;
 	width: 100%;
 	background-color: rgb(104, 101, 101);
 	text-align: center;
