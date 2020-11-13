@@ -79,18 +79,22 @@
   font-weight: 700;
   color:#81c73b;
 }
+
 .main-panel-text p{
   font-size: 25px;
 }
 
-.btn-down {
+.btn-down{
   position: absolute;
   bottom: 30px;
   color: grey;
-  place-content: center;
-  /* align-content: center; */
-  /* text-align: center; */
+  width:100%;
+  text-align: center; 
+  /* place-content: center;
+  align-content: center;
+  text-align: center; */
 }
+
 
 /* About section */
 .about{
