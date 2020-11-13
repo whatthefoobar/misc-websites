@@ -90,15 +90,11 @@
   color: grey;
   width:100%;
   text-align: center; 
-  /* place-content: center;
-  align-content: center;
-  text-align: center; */
 }
-
 
 /* About section */
 .about{
-  min-height: 50vh;
+  min-height: 60vh;
   background-color: whitesmoke;
   padding: 50px 50px;
   text-align: center;
@@ -114,10 +110,12 @@
   /* place-items: center; */
   /* position: absolute; */
   /* margin: 20px auto; */
-  margin:20px auto;
+  /* margin:20px auto; */
 }
 .social-media ul li{
   padding: 5px;
+  
+
 }
 .social-media ul li a{
   color: #000;
@@ -126,7 +124,6 @@
 /* Projects section */
 .portfolio-wrapper {
 	margin: 70px auto;
-  /* padding: 100px 20px 50px; */
   padding: 50px 20px 50px 20px;
 	text-align: center;
 	min-height: 60vh;
@@ -248,25 +245,4 @@ textarea:focus, .textinput:focus {
 .submit:active {
 	box-shadow: 0 5px 0 #000, 0 3px 10px #000;
 	transform: translateY(5px);
-}
-
-/* mobile styles */
-
-/* small tablet styles */
-@media screen and (max-width: 620px){
-  /* scroll btn lower 
-  nav menu compressed into hamburger style */
- 
-
-}
-
-/* large tablet & laptop styles */
-@media screen and (max-width: 960px){
-
-
-}
-
-/* desktop styles */
-@media screen and (min-width: 1200px){
-
 }
