@@ -141,6 +141,7 @@ html {
   color: black;
   padding: 20px;
   font-weight: 400;
+  line-height: 2;
 }
 /* .under-text {
   background-color: transparent;
@@ -164,3 +165,55 @@ html {
     background-attachment: scroll;
   }
 }
+
+/* Social media div in contact section */
+.social-media {
+  position: relative;
+  margin-top: 30px;
+}
+.social-media ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.social-media ul li {
+  list-style: none;
+  margin: 0 7px;
+}
+
+.social-media ul li .fa-brands {
+  font-size: 20px;
+  line-height: 30px;
+  transition: 0.6s;
+  color: #000;
+}
+/* .social-media ul li .fa-brands:hover {
+  background-color: #333;
+  color: #fff;
+} */
+.social-media ul li a {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(233, 233, 115);
+  /* background-color: #fff; */
+  text-align: center;
+  transition: 0.6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.social-media ul li a:hover {
+  transform: translate(0, -10px);
+}
+/* .social-media ul li:nth-child(1) a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.social-media ul li:nth-child(2) a:hover {
+  background-color: #0a66c2;
+} */
