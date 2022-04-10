@@ -12,7 +12,10 @@ function fixedNav() {
 
 window.addEventListener('scroll', fixedNav);
 
-//
+//rewrite in JS start here
+window.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+});
 
 $(document).ready(function () {
   $('#menu').click(function () {
