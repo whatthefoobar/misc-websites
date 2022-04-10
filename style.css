@@ -143,12 +143,6 @@ html {
   font-weight: 400;
   line-height: 2;
 }
-/* .under-text {
-  background-color: transparent;
-  text-transform: none;
-  font-weight: 800;
-  color: black;
-} */
 
 .ptext .border.trans {
   background-color: transparent;
@@ -189,10 +183,7 @@ html {
   transition: 0.6s;
   color: #000;
 }
-/* .social-media ul li .fa-brands:hover {
-  background-color: #333;
-  color: #fff;
-} */
+
 .social-media ul li a {
   position: relative;
   display: block;
@@ -209,11 +200,3 @@ html {
 .social-media ul li a:hover {
   transform: translate(0, -10px);
 }
-/* .social-media ul li:nth-child(1) a:hover {
-  background-color: orange;
-  color: black;
-}
-
-.social-media ul li:nth-child(2) a:hover {
-  background-color: #0a66c2;
-} */
