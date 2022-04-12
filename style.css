@@ -84,7 +84,11 @@ html {
       rgba(255, 0, 149, 0.2),
       rgba(255, 0, 150, 0.2)
     ),
+<<<<<<< HEAD
     url('./img/1.png');
+=======
+    url('./img/12.png');
+>>>>>>> 86e4ffd8591ee227c19b9de8ca874d970cbb0a31
   min-height: 100%;
 }
 
@@ -94,7 +98,11 @@ html {
       rgba(255, 0, 149, 0.2),
       rgba(255, 0, 150, 0.2)
     ),
+<<<<<<< HEAD
     url('./img/2.jpeg');
+=======
+    url('./img/bwart.jpeg');
+>>>>>>> 86e4ffd8591ee227c19b9de8ca874d970cbb0a31
   background-size: cover;
   min-height: 400px;
 }
@@ -105,7 +113,11 @@ html {
       rgba(255, 0, 149, 0.2),
       rgba(255, 0, 150, 0.2)
     ),
+<<<<<<< HEAD
     url('./img/3.png');
+=======
+    url('./img/1234.png');
+>>>>>>> 86e4ffd8591ee227c19b9de8ca874d970cbb0a31
   background-size: cover;
   min-height: 400px;
 }
