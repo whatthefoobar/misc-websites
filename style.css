@@ -80,7 +80,7 @@ html {
       rgba(255, 0, 149, 0.2),
       rgba(255, 0, 150, 0.2)
     ),
-    url('img/12.png');
+    url('./img/12.png');
   min-height: 100%;
 }
 
@@ -90,7 +90,7 @@ html {
       rgba(255, 0, 149, 0.2),
       rgba(255, 0, 150, 0.2)
     ),
-    url('img/bwart.jpeg');
+    url('./img/bwart.jpeg');
   background-size: cover;
   min-height: 400px;
 }
@@ -101,7 +101,7 @@ html {
       rgba(255, 0, 149, 0.2),
       rgba(255, 0, 150, 0.2)
     ),
-    url('img/1234.png');
+    url('./img/1234.png');
   background-size: cover;
   min-height: 400px;
 }
