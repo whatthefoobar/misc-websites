@@ -17,6 +17,15 @@
       rel="stylesheet"
     />
 
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <script src="app.js" defer></script>
 
     <title>Portfolio page 2</title>
@@ -54,7 +63,7 @@
     </section>
 
     <section id="about" class="about">
-      <h2>About</h2>
+      <h2 class="subtitle">About</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem
         velit, consectetur nec ornare vitae, luctus placerat velit. Curabitur
@@ -99,75 +108,140 @@
       </div>
     </section>
     <section id="projects" class="portfolio-wrapper">
-      <h2>Projects</h2>
+      <h2 class="subtitle">Projects</h2>
       <div class="projects">
         <figure
           class="imghvr-fade project-wrapper"
           style="background-color: black"
         >
-          <img src="img/bwcode1.png" />
+          <img src="img/1.jpeg" />
           <figcaption
             style="background-color: white; color: black; text-align: center"
           >
             This has been my first portfolio project done for a photography
             artist.Click here to peak.
           </figcaption>
-          <a href="https://whatthefoof.github.io/first-website/"></a>
+          <a href="hi-01-artist-page.netlify.app/"></a>
         </figure>
 
         <figure
           class="imghvr-fade project-wrapper"
           style="background-color: black"
         >
-          <img src="img/code2.png" />
+          <img src="img/2.jpeg" />
           <figcaption style="background-color: white; color: black">
             My second school project has been for a simple flashcard app with a
             navigation bar. Click here to have a peak.
           </figcaption>
-          <a href="https://whatthefoof.github.io/flashcards/"></a>
+          <a href="https://hi-02-flashcards-project.netlify.app/"></a>
         </figure>
 
         <figure
           class="imghvr-fade project-wrapper"
           style="background-color: black"
         >
-          <img src="img/code3.png" />
+          <img src="img/3.jpeg" />
           <figcaption style="background-color: white; color: black">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
             non tempora sapiente blanditiis consectetur quo.
           </figcaption>
-          <a href="http://www.imagehover.io"></a>
+          <a href="#"></a>
         </figure>
 
         <figure
           class="imghvr-fade project-wrapper"
           style="background-color: black"
         >
-          <img src="img/code4.png" />
+          <img src="img/4.jpeg" />
           <figcaption style="background-color: white; color: black">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
             non tempora sapiente blanditiis consectetur quo.
           </figcaption>
-          <a href="http://www.imagehover.io"></a>
+          <a href="#"></a>
         </figure>
       </div>
     </section>
+
     <section id="skills" class="skills">
-      <h2>Skills</h2>
-      <ul class="skills-wrapper">
-        <li><img src="img/html bw.png" alt="" /></li>
-        <li><img src="img/css bw.png" alt="" /></li>
-        <li><img src="img/javascript bw.png" alt="" /></li>
-        <li></li>
-      </ul>
+      <h2 class="subtitle">Skills</h2>
+
+      <div class="skills-container">
+        <div class="set">
+          <span class="fa-solid fa-laptop-code"></span>
+
+          <header>Web Development</header>
+          <div class="list">
+            <label>HTML</label>
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="list">
+            <label>CSS</label>
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <div class="list">
+            <label>Javascript</label>
+            <i class="fab fa-js"></i>
+          </div>
+
+          <div class="list">
+            <label>Node.js</label>
+            <i class="fab fa-node-js"></i>
+          </div>
+          <div class="list">
+            <label>React</label>
+            <i class="fab fa-react"></i>
+          </div>
+        </div>
+
+        <div class="set">
+          <span class="fas fa-tools"></span>
+          <header>Tools</header>
+
+          <div class="list">
+            <label>Firebase</label>
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <div class="list">
+            <label>Git & Github</label>
+            <i class="fa-brands fa-github"></i>
+          </div>
+
+          <div class="list">
+            <label>Bootstrap</label>
+            <i class="fab fa-bootstrap"></i>
+          </div>
+        </div>
+
+        <div class="set">
+          <span class="fas fa-people-group"></span>
+          <header>Soft skills</header>
+          <div class="list">
+            <label>Curiosity</label>
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <div class="list">
+            <label>Time management</label>
+            <i class="fa-solid fa-clock"></i>
+          </div>
+          <div class="list">
+            <label>Problem solving</label>
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <div class="list">
+            <label>Communication</label>
+            <i class="fa-solid fa-comments"></i>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="contact-wrapper">
+      <h2 class="subtitle">Contact</h2>
       <div class="form-container">
         <div class="contact-box">
           <div class="left"></div>
           <div class="right">
-            <h2>Contact Me</h2>
+            <h2 class="contact-header">Contact Me</h2>
             <input type="text" class="field" placeholder="Your Name" />
             <input type="text" class="field" placeholder="Your Email" />
             <input type="text" class="field" placeholder="Phone" />
